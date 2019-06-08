@@ -38,24 +38,44 @@ body {
   section {
     background-color: #ebebeb;
     width:100%;
-    float: left;
     margin: 1%;
     padding: 0%;
-    display: block;
     overflow: auto;
-
+    
 
 
     
 
-  }
-  aside {
+  }  
+  #full {
     background-color: #ebebeb;
     float: left;
-    margin: 1%;
     padding: 0%;
-    width: 300px;
-    
+    width: 53%;
+    overflow: auto;
+    margin: 0 auto;
+    height: 310px;
+
+  } 
+  #article-area {
+   background-color: #ebebeb;
+   float: left;
+   width: 45%;
+   overflow: auto;
+   height: 300px;
+  }
+  
+
+  
+  article {
+    background-color: #777755;
+    color: #ebebeb;
+    text-align: center;
+    clear: both;
+    overflow: auto;
+    padding: 10px;
+    width: 95%;
+
     
 
   }
@@ -64,16 +84,9 @@ body {
     
 
   }
-  article {
-    background-color: #777777;
-    color: #ebebeb;
-    text-align: center;
-
-    
-
-  }
+ 
   p {
-    background-color: #ebebeb;
+    background-color: #ebebeb; 
     color: #777777;
     text-align: center;
 
